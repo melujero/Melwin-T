@@ -1,5 +1,6 @@
 * {
         font-family: Arial, Helvetica, sans-serif;
+        
 }
 
 .menu {
@@ -63,6 +64,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     margin-top: 35px;
+    padding-bottom: 100px;
 }
 
 .std_form {
@@ -123,6 +125,7 @@ background:
       rgba(255, 255, 255, 0.85)
     ),
     url(back_2.png) no-repeat center / cover;
+    padding-bottom: 300px;
 }
 #info_img
 {
@@ -130,4 +133,39 @@ background:
     margin-left: 10px;
     
     
+}
+#H3
+{
+    
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+#kod_offers {
+    width: 380px;
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    text-align: left;
+    
+    
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    
+
+    
+}  
+
+.about {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px 0px 150px;
+    gap: 20px;
+}
+
+#th4 {
+ 
+    font-size: 20px;
 }
